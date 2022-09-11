@@ -1,2 +1,2 @@
 # spellchecker-buildkite-plugin
-Buildkite plugin exercise
+An Buildkite plugin exercise that runs a spell check on specific files within a build.
