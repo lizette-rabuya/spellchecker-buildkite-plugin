@@ -1,6 +1,5 @@
 services:
-  lint:
-    image: buildkite/plugin-linter
-    command: ['--id', 'spellchecker']
+  tests:
+    image: buildkite/plugin-tester
     volumes:
-      - ".:/plugin:ro" 
+      - .:/plugin

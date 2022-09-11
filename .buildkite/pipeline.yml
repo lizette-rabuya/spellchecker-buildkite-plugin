@@ -1,3 +1,9 @@
 steps:
   - label: ":sparkles: lint"
-    command: echo Linting exercise
+    plugins:
+      - plugin-linter#v3.0.0:
+          id: spellchecker
+  - label: run bats tests
+    plugins:
+      - docker-compose#v3.10.0:
+          run: tests
