@@ -1,0 +1,7 @@
+steps:
+  - label: ":sparkles: lint"
+    command: echo Linting exercise
+  # - label: ":sparkles: lint"
+  #   plugins:
+  #     - plugin-linter#v3.0.0:
+  #         id: shellcheck
