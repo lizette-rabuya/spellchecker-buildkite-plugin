@@ -1,0 +1,10 @@
+name: Spellchecker
+description: A Buildkite plugin exercise
+author: https://github.com/ljrtest
+requirements:
+  - docker
+  - bash
+configuration:
+  properties:
+    option:
+      type: string
